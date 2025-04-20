@@ -62,7 +62,7 @@ section {
 }
 @media (max-width: 480px) {
     .banner-img {
-        max-height: 200px; /* or 180px for more compact feel */
+        max-height: 180px; /* or 180px for more compact feel */
         margin: 1em auto;
     }
 }

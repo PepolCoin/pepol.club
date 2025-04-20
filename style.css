@@ -22,14 +22,14 @@ body {
 }
 .logo-header {
     text-align: center;
-    margin-top: 1em;
+    margin: 1em 0 0.5em 0;
 }
 .logo {
     max-width: 320px;
     width: 100%;
 }
 main {
-    padding: 2em;
+    padding: 1em 2em 2em 2em;
     max-width: 800px;
     margin: 0 auto;
 }

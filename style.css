@@ -53,6 +53,12 @@ section {
 .paw-list li {
     margin: 0.5em 0;
 }
+.roadmap-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-top: -1.5em;
+}
 .banner-img {
     max-height: 300px;
     max-width: 100%;

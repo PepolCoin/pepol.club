@@ -5,10 +5,7 @@ body {
     padding: 0;
     background: #fdf0d3;
     color: #333;
-    position: relative;
-    overflow-x: hidden;
 }
-
 .navbar {
     background-color: #fbdc4d;
     padding: 1em;
@@ -26,37 +23,17 @@ body {
 .navbar .btn.active {
     background-color: #ffce00;
 }
-
 footer {
     background: #222;
     color: #fff;
     padding: 2em;
     text-align: center;
 }
-
-.banner-img {
+.banner img {
     max-width: 100%;
     height: auto;
     max-height: 400px;
     object-fit: contain;
     display: block;
     margin: 0 auto;
-}
-
-.pawprint {
-    position: absolute;
-    width: 40px;
-    opacity: 0.2;
-    animation: walk 12s linear infinite;
-}
-
-@keyframes walk {
-    0% {
-        transform: translateX(-50px);
-        opacity: 0.2;
-    }
-    100% {
-        transform: translateX(100vw);
-        opacity: 0.1;
-    }
 }
